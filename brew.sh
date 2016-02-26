@@ -24,8 +24,8 @@ brew install gnu-sed --default-names
 brew install bash
 # regular bash-completion package is held back to an older release, so we get latest from versions.
 #   github.com/Homebrew/homebrew/blob/master/Library/Formula/bash-completion.rb#L3-L4
-brew tap homebrew/versions
-brew install homebrew/versions/bash-completion2
+#brew tap homebrew/versions
+#brew install homebrew/versions/bash-completion2
 
 # generic colouriser  http://kassiopeia.juls.savba.sk/~garabik/software/grc/
 brew install grc
@@ -69,9 +69,44 @@ brew install ffmpeg --with-libvpx
 brew install terminal-notifier
 
 brew install android-platform-tools
-brew install pidcat   # colored logcat guy
 
+brew install cloc
+brew install jpeg
+brew install libtiff
+brew install pcre
+brew install readline
+brew install texi2html
+brew install xctool
+brew install coreutils
+brew install findutils
+brew install gnu-sed
+brew install lame
+brew install libtool
+brew install moreutils
+brew install pgcli
+brew install tree
+brew install xvid
+brew install autoconf
+brew install docbook
+brew install freetype
+brew install libgpg-error
+brew install libvo-aacenc
+brew install mtr
+brew install pidcat
+brew install rename
+brew install nmap
+brew install screen
+brew install webp
+brew install bash
+brew install emacs
+brew install node
+brew install postgresql
+brew install terminal-notifier
+brew install wget
+brew install brew-cask
+brew install imagemagick
+brew install testdisk
 brew install zsh
-
+brew install cocoapods
 # Remove outdated versions from the cellar
 brew cleanup

@@ -75,8 +75,8 @@
 # Any GitHub repo with my username should be checked out r/w by default
 # http://rentzsch.tumblr.com/post/564806957/public-but-hackable-git-submodules
 
-[url "git@github.com:paulirish/"]
-  insteadOf = "git://github.com/paulirish/"
+[url "git@github.com:valpertui/"]
+  insteadOf = "git://github.com/valpertui/"
 [help]
 	autocorrect = 1
 
@@ -93,3 +93,10 @@
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
+[user]
+	name = Valentin Pertuisot
+	email = valentin.pertuisot@gmail.com
+[mergetool "storyboard"]
+    name = StoryboardMerge interactive merge
+    cmd = storyboard-merge $BASE $LOCAL $REMOTE $MERGED
+    trustExitCode = false

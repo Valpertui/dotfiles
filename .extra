@@ -1,0 +1,18 @@
+# The top-most paths override here.
+PATH=/opt/local/bin
+PATH=$PATH:/usr/local/bin
+PATH=$PATH:/usr/bin
+PATH=$PATH:/sbin
+PATH=$PATH:/opt/local/sbin
+PATH=$PATH:/bin
+PATH=$PATH:~/bin
+PATH=$PATH:~/.rvm/bin
+PATH=$PATH:~/code/git-friendly
+PATH=$HOME/.homebrew/opt/coreutils/libexec/gnubin:$PATH
+PATH=$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$PATH
+#
+
+export PATH
+
+alias scale_tasks_down='heroku ps:scale asynctasks=0 asynctasks_all=0 asynctasks_denoms=0 bg_worker=0 receipts_processing=0 loyalties_processing=0 broadcast_publishing=0 migrations=0 asynctasks_background=0 asynctasks_mongo=0 asynctasks_analytics=0 mturk=0 task_consumption=0 scheduled_jobs=0 --app production-asynctasks'
+alias scale_workflow_down='heroku ps:scale workflow_line_reading=0 workflow_champollion=0 workflow_loyalty=0 workflow=0 --app production-workflow'
