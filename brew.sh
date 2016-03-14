@@ -107,6 +107,5 @@ brew install brew-cask
 brew install imagemagick
 brew install testdisk
 brew install zsh
-brew install cocoapods
 # Remove outdated versions from the cellar
 brew cleanup

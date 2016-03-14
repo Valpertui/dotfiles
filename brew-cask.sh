@@ -19,7 +19,7 @@ brew tap caskroom/versions
 brew cask install flux
 
 # dev
-brew cask install iterm2
+brew cask install iterm3
 brew cask install imagealpha
 brew cask install imageoptim
 
