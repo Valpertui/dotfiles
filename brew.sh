@@ -7,7 +7,7 @@ brew update
 
 # Upgrade any already-installed formulae
 brew upgrade
-
+brew tap caskroom/cask
 
 # GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -103,7 +103,6 @@ brew install node
 brew install postgresql
 brew install terminal-notifier
 brew install wget
-brew install brew-cask
 brew install imagemagick
 brew install testdisk
 brew install zsh

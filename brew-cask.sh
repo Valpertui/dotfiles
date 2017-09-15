@@ -82,6 +82,7 @@ brew cask install java
 brew cask install gpgtools
 brew cask install league-of-legends
 brew cask install steam
+brew cask install battle-net
 # Not on cask but I want regardless.
 
 # 3Hub   https://itunes.apple.com/us/app/3hub/id427515976?mt=12

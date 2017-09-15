@@ -100,3 +100,5 @@
     name = StoryboardMerge interactive merge
     cmd = storyboard-merge $BASE $LOCAL $REMOTE $MERGED
     trustExitCode = false
+[pull]
+	rebase = true
