@@ -103,4 +103,4 @@ shopt -s cdspell;
 
 
 if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
-PATH=/Users/Valentin/.Pokemon-Terminal:/Users/Valentin/.swiftenv/shims:/Users/Valentin/.rvm/gems/ruby-2.3.0/bin:/Users/Valentin/.rvm/gems/ruby-2.3.0@global/bin:/Users/Valentin/.rvm/rubies/ruby-2.3.0/bin:/Users/Valentin/.homebrew/bin:/Users/Valentin/.homebrew/sbin:/Users/Valentin/.homebrew/opt/coreutils/libexec/gnubin:/opt/local/bin:/usr/local/bin:/usr/bin:/sbin:/opt/local/sbin:/bin:/Users/Valentin/bin:/Users/Valentin/.rvm/bin:/Users/Valentin/code/git-friendly
+PATH=$HOME/.Pokemon-Terminal:$HOME/.swiftenv/shims:$HOME/.rvm/gems/ruby-2.3.0/bin:$HOME/.rvm/gems/ruby-2.3.0@global/bin:$HOME/.rvm/rubies/ruby-2.3.0/bin:$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$HOME/.homebrew/opt/coreutils/libexec/gnubin:/opt/local/bin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/opt/local/sbin:/bin:$HOME/bin:$HOME/.rvm/bin:$HOME/code/git-friendly

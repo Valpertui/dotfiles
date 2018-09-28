@@ -73,7 +73,6 @@ brew cask install transmit
 brew cask install puush
 brew cask install razer-synapse
 brew cask install sketch
-brew cask install wireshark
 brew cask install inkscape
 brew cask install skype
 brew cask install xquartz

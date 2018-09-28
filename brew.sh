@@ -77,12 +77,8 @@ brew install pcre
 brew install readline
 brew install texi2html
 brew install xctool
-brew install coreutils
-brew install findutils
-brew install gnu-sed
 brew install lame
 brew install libtool
-brew install moreutils
 brew install pgcli
 brew install tree
 brew install xvid
@@ -91,19 +87,12 @@ brew install docbook
 brew install freetype
 brew install libgpg-error
 brew install libvo-aacenc
-brew install mtr
 brew install pidcat
 brew install rename
 brew install nmap
 brew install screen
 brew install webp
-brew install bash
 brew install emacs
-brew install node
-brew install postgresql
-brew install terminal-notifier
-brew install wget
-brew install imagemagick
 brew install testdisk
 brew install zsh
 # Remove outdated versions from the cellar
