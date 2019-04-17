@@ -57,10 +57,6 @@ cp "~/Library/Application Support/Sublime Text 3/Packages" ~/migration
 #     copy(JSON.stringify(localStorage, null, '  '))
 #     pbpaste > timestats-canary.json.txt
 
-# Current Chrome tabs via OneTab
-
-# software licenses like sublimetext
-
 
 ### end of old machine backup
 ##############################################################################################################

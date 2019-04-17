@@ -33,6 +33,7 @@
 	attributesfile = ~/.gitattributes
 	# insanely beautiful diffs
 	pager = bash -lc 'diff-highlight | diff-so-fancy | less -r' -
+	ignorecase = true
 [color "branch"]
 	current = yellow reverse
 	local = yellow
@@ -90,9 +91,10 @@
   # For username / github token / etc
   path = ~/.gitconfig.local
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
 	required = true
+	process = git-lfs filter-process
 [user]
 	name = Valentin Pertuisot
 	email = valentin.pertuisot@gmail.com

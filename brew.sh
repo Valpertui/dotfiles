@@ -16,7 +16,7 @@ brew install moreutils
 # GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 brew install findutils
 # GNU `sed`, overwriting the built-in `sed`
-brew install gnu-sed --default-names
+brew install gnu-sed
 
 
 # Bash 4
@@ -68,7 +68,6 @@ brew install ffmpeg --with-libvpx
 
 brew install terminal-notifier
 
-brew install android-platform-tools
 
 brew install cloc
 brew install jpeg
@@ -80,7 +79,6 @@ brew install xctool
 brew install lame
 brew install libtool
 brew install pgcli
-brew install tree
 brew install xvid
 brew install autoconf
 brew install docbook
@@ -88,12 +86,50 @@ brew install freetype
 brew install libgpg-error
 brew install libvo-aacenc
 brew install pidcat
-brew install rename
 brew install nmap
 brew install screen
 brew install webp
 brew install emacs
 brew install testdisk
 brew install zsh
+brew install automake
+brew install cmake
+brew install dnsmasq
+brew install doxygen
+brew install giflib
+brew install git-lfs
+brew install gnupg
+brew install gobject-introspection
+brew install intltool
+brew install isl
+brew install libexif
+brew install libgsf
+brew install libmpc
+brew install librsvg
+brew install libyaml
+brew install makedepend
+brew install memcached
+brew install meson
+brew install meson-internal
+brew install mysql@5.7
+brew install nasm
+brew install nginx
+brew install openssl@1.1
+brew install opus
+brew install orc
+brew install poppler
+brew install python@2
+brew install redis
+brew install rust
+brew install sdl2
+brew install snappy
+brew install sphinx-doc
+brew install swiftlint
+brew install theora
+brew install xcodegen
+brew install yarn
+brew install yasm
+brew install zlib
+
 # Remove outdated versions from the cellar
 brew cleanup
